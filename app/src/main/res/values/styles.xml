@@ -1,0 +1,22 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme2" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="result_pop_scroll">
+        <item name="android:background">@color/colorWhite</item>
+    </style>
+
+    <style name="result_pop_scrollinner">
+        <item name="android:padding">2dp</item>
+        <item name="android:rowHeight">12dp</item>
+    </style>
+</resources>

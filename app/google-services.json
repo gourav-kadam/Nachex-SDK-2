@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "207701758636",
+    "project_id": "nachex-d63a2",
+    "storage_bucket": "nachex-d63a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207701758636:android:d017de1219db5fa8994509",
+        "android_client_info": {
+          "package_name": "com.nachex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "207701758636-3k69h8i5jbk4qno5najt42bp8u9m26tm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZaF_TdQfvEf11n8kxOWE4lls1TSxou-4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "207701758636-3k69h8i5jbk4qno5najt42bp8u9m26tm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,44 @@
+
+buildscript {
+    ext.kotlin_version = '1.6.10'
+    ext.kotlin_version = '1.5.30'
+    repositories {
+        google()
+        jcenter()
+        maven { url 'https://maven.fabric.io/public' }
+        
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.0.4'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.10"
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.5'
+        classpath 'com.google.gms:google-services:4.3.8'
+        //classpath 'in.fabric.tools:gradle:1.31.2'
+        classpath 'io.fabric.tools:gradle:1.28.0'
+
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven { url "https://jitpack.io" }
+        maven {
+            url "https://jitpack.io"
+        }
+        maven { url 'https://maven.fabric.io/public' }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+ext {
+    compileSdkVersion = 28
+    minSdkVersion = 14
+    targetSdkVersion = 28
+    buildToolsVersion = '29.0.2'
+    supportVersion = '28.0.0'
+}

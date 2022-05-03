@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">NACHEX</string>
+    <string name="camera_permission_required">This function requires camera permission!</string>
+    <string name="text1">Kindly consider the below-mentioned guidelines before presenting and submitting a Mandate :</string>
+    <string name="text2">1. Make sure there are no scribblings or overwriting over the mandate.</string>
+    <string name="text3">2. Make sure all the mandatory fields are filled or marked.</string>
+    <string name="text4">3. Make sure the mandate is completely positioned inside the rectangular stencil while capturing.</string>
+    <string name="text5">4. Make sure the image is visible (No Blur/Glair) before the final submission. If not, recapture the image to prevent rejection.</string>
+    <string name="text6">5. Make sure no external objects are covering any field in the captured mandate before submission.</string>
+    <string name="URL">https://acxiom.codingserver.com/api/</string>
+
+    <!--<string name="nachtextractapi">http://65.2.77.218:8000/nachtextractapi/</string>-->
+    <!--<string name="nachtextractapi">http://20.204.11.95:8000/nachtextractapi/</string>-->
+    <!--<string name="token">Token 321cc88a5464e2664d91736ccc87229a1c448de4</string>-->
+
+    <string name="nachtextractapi">https://www.ocraiacxtech.co.in/nachtextractapi/</string>
+    <string name="token">Token d29cbefb1b0df957b48fa43469b7e970d57763a0</string>
+
+    <string name="gallery_pick_image">Gallery image</string>
+    <string name="cpu_architecture">Phone CPU Architecture is :  %s</string>
+    <string name="select_image_from_gallery">Select Image</string>
+    <string name="result_from_opencv">OpenCV : %1s \n Threshold value is %2s \n current score is %3s</string>
+    <string name="result_from_renderscript">Renderscript : %1s \n Most luminous color is %2s</string>
+</resources>

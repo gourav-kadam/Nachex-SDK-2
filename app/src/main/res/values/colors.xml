@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1e319d</color>
+    <color name="colorPrimaryDark">#1e319d</color>
+    <color name="colorAccent">#1e319d</color>
+    <color name="halfTransparentBackground">#FFF</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="blurred_image">#F70913</color>
+    <color name="not_blurred_image">#34F709</color>
+    <color name="gray">#bcbcbc</color>
+    <color name="black">#000000</color>
+</resources>
